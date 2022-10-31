@@ -30,6 +30,9 @@ app.use(express.urlencoded({extended: false}));
 app.use(require('./routes/auth'));
 // app.use(require('./routes/post'));
 
+if( process.env.NODE_ENV === "production" ){
+    app.use(express.static("client/build"));
+}
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
