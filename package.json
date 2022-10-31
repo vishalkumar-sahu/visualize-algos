@@ -1,5 +1,5 @@
 {
-  "name": "Algorithm visualizer",
+  "name": "visualize-algos",
   "version": "1.0.0",
   "description": "Visualize algos",
   "main": "app.js",
