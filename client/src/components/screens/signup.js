@@ -99,7 +99,7 @@ const Signup = () => {
                                 <div className='d-flex flex-row justify-content-center mb-4'>
                                     <MDBCheckbox name='flexCheck' id='flexCheckDefault' label='I agree all statements in Terms of service' />
                                 </div>
-                                <input className="input_ele" type="submit" value="Sign Up" />
+                                <input id='submitsignup' className="input_ele" type="submit" value="Sign Up" />
                                 </form>
                                 {/* <MDBBtn className='mb-3 w-100 gradient-custom-2' size='lg'>Register</MDBBtn> */}
 
